@@ -1,0 +1,8 @@
+PORT=5000
+CLIENT_ORIGIN_URL=http://localhost:4040
+AUTH0_AUDIENCE_IDENTIFIER=https://dev-06mx3gqyvkq20piy.us.auth0.com/dda
+AUTH0_AUDIENCE=https://dev-06mx3gqyvkq20piy.us.auth0.com/dda
+AUTH0_DOMAIN=dev-06mx3gqyvkq20piy.us.auth0.com
+AUTH0_MGMT_CLIENT_ID=opaOYhHNW1tIuGJrgO0C6Y7fH1fqLjxK
+AUTH0_MGMT_CLIENT_SECRET=dQJCED7bpgagX3xbMl9bUKPsrcVzm6Wi6cyFrPzz_hyOYbfvP4Bq2Kvue2ypqR88
+MONGODB_URI=mongodb://localhost:27017/dda

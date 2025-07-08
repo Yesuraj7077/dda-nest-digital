@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^4.7.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "@mui/x-data-grid": "^8.6.0",
+    "axios": "^1.10.0",
+    "cookie": "^1.0.2",
+    "jwt-decode": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.6.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "postcss": "8.4.31",
+    "tailwindcss": "^4.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build:css": "ts-node --esm ./node_modules/tailwindcss/lib/cli.js build -c tailwind.config.ts -o ./public/tailwind.css ./src/styles/tailwind.css",
+    "dev": "next dev"
+  }
+}
