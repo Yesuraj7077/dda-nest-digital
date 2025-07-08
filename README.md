@@ -7,7 +7,7 @@ This project is a Developer Profile management application consisting of a backe
 ## Project Structure
 
 - **Backend:** REST API to manage developer profiles.
-- **Frontend:** React (or any frontend framework) interface to interact with the API.
+- **Frontend:** Next js interface to interact with the API.
 
 ---
 
